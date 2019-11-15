@@ -1,17 +1,17 @@
-package com.rani.bookcatalogservice.bookcatalogservice.model;
+package com.rani.bookcatalogservice.model;
 
 public class CatalogItem {
 
     private String bookName;
-    private String bookDescr;
+    private String author;
     private int ratings;
 
     public CatalogItem() {
     }
 
-    public CatalogItem(String bookName, String bookDescr, int ratings) {
+    public CatalogItem(String bookName, String author, int ratings) {
         this.bookName = bookName;
-        this.bookDescr = bookDescr;
+        this.author = author;
         this.ratings = ratings;
     }
 
@@ -23,12 +23,12 @@ public class CatalogItem {
         this.bookName = bookName;
     }
 
-    public String getBookDescr() {
-        return bookDescr;
+    public String getAuthor() {
+        return author;
     }
 
-    public void setBookDescr(String bookDescr) {
-        this.bookDescr = bookDescr;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public int getRatings() {

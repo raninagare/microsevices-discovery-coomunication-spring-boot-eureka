@@ -1,4 +1,4 @@
-package com.rani.bookcatalogservice.bookcatalogservice;
+package com.rani.bookcatalogservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
